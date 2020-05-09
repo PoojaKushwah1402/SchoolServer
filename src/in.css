@@ -1,0 +1,287 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:white;
+    background-image: url("back.png");
+    background-repeat: no-repeat;
+   background-color: azure;
+  
+}
+
+.head{
+    width: 100%;
+    height:9%;
+    overflow: hidden;
+}
+
+.lowerleft{
+max-width: 50%;
+height: 100%;
+float: left;
+margin-top: -500px;
+flex: 1;
+}
+
+.lowerright{
+    height: 100%;
+    max-width: 60%;
+    margin-top:-50px;
+    float: right;
+   flex: 1;
+}
+
+.new{
+    display: flex;
+    background-color: white;
+    margin-top: 500px;
+}
+
+.imgpar{
+    height: 400px;
+    width: 550px;
+    margin-top: 550px;
+    margin-left: 100px;
+    overflow: hidden;
+}
+
+.points{
+    margin-left: 100px;
+    margin-top:0px;
+    height: 300px;
+    width: 500px;
+  
+}
+
+ul{
+    list-style-image:url('list.png');
+    margin-left: 15px;
+    font-family: Georgia;
+    font-size: 22px;
+}
+
+.formdiv{
+    width: 500px;
+    height: 700px;
+    background-color: white;
+    margin-left: 100px;
+    margin-top:10px;
+    box-shadow:0px  40px 50px #c4d2e7;
+}
+
+h1{
+    margin-left: 100px;
+    margin-top: 50px;
+    position: absolute;
+    font-family: Georgia;
+}
+
+h7{
+  font-size: 10px;  
+  margin-left: 50px;
+  margin-top: 30px;
+  color: red;
+  visibility: hidden;
+}
+
+size{
+    margin-left: 300px;
+    margin-top: 150px;
+    position: absolute;
+    font-family: Georgia;
+    font-size: 30px;
+}
+
+.add{
+    margin-top: 200px;
+    margin-left: 33%;
+    font-family: Georgia;
+    font-size: 15px;     
+}
+
+h2{
+    margin-left: 20px;
+    margin-top: 60px;
+    margin-right: 40px;
+    font-family: Georgia;   
+}
+
+input[type=text]{
+    border-radius:5px;
+       font-size:15px;
+       font-family:arial;
+       background-color: azure;
+       width:200px;
+       border:2px solid #c4d2e7;
+       padding-left: 30px;
+       margin-top: 30px;
+       margin-left: 40px;
+       height: 40px;
+}
+input[type=email]{
+    border-radius:5px;
+       font-size:15px;
+       font-family:arial;
+       background-color: azure;
+       width:400px;
+       border:2px solid #c4d2e7;
+       padding-left: 30px;
+       margin-top: 30px;
+       margin-left: 40px;
+       height: 40px;
+}
+
+.noform{
+    width: 100%;
+    height: 20%;
+    margin-left: -10%;
+}
+
+.drop{
+    border-radius:5px;
+    font-size:15px;
+    font-family:arial;
+  
+    width:400px;
+    height: 40px;
+    border:2px solid #c4d2e7;
+    padding-left: 30px;
+    margin-top: 30px;
+    margin-left: 40px; 
+    position: relative;  
+}
+
+#msge{
+    height: 150px;
+    width: 400px;
+    padding: 10px;
+    position: relative;
+    padding-left: 20px;
+    padding-top: 0px;
+
+}
+
+.btn1{
+    background-color:rgba(76, 175, 80, 1);
+    color:white;
+    border:1px solid B5C7DF;
+    width:190px;
+    padding:15px;
+    font-family:arial;
+    border-radius:9px;
+    margin-top:20px;
+    margin-left: 150px;
+     }
+  
+     
+.lower{
+    margin-left:100px;
+
+    width:500px;
+    height: 400px;
+    margin-top:-70px;
+}     
+
+.low1{
+    width: 100%;
+    height: 20%; 
+
+}
+
+.low2{
+    width: 100%;
+    font-family:arial;
+    font-size: 20px;
+    margin-top: 40px;
+}
+   
+.bar{
+    width:50px;
+    height:10px;
+    border:2px solid #696969;
+    cursor: pointer;
+    transition :0.4s;
+    margin: 6px;
+}
+
+.bar:hover{
+    background-color:#696969;
+}
+
+.navigation{
+    margin-top: 350px;
+    margin-left: -520px;
+    
+    left: 50%;
+    display: flex;
+    position: absolute;
+}
+
+input[name="r"]{
+    visibility: hidden;
+    position: absolute;
+}
+
+.para{
+    margin-top: 50px;
+    margin-left: 100px;
+    height: 100px;
+    width: 500px;
+    font-family:Georgia;
+    font-size: 20px;
+}
+
+.slides{
+    height: 100%;
+    width: 500%;
+    display:flex;
+}
+
+.slide{
+    width: 20%;
+    transition: 0.6s;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
+
+#r1:checked ~ .s1{
+    margin-left: 0;
+}
+
+
+#r2:checked ~ .s1{
+    margin-left: -20%;
+}
+
+#r3:checked ~ .s1{
+    margin-left: -40%;
+}
+
+#r4:checked ~ .s1{
+    margin-left: -60%;
+}
+
+#r5:checked ~ .s1{
+    margin-left: -80%;
+}
+
+
+.circle{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-top: -140px;
+    margin-left: 10%;
+}
+
+
+p1,p2,p3,p4,p5 {
+    color: red;
+    visibility: hidden;
+}
